@@ -1,14 +1,24 @@
 #include <stdio.h>
+
 /**
- * main - Entry
- * Return: Always 0
+ * main - entry point
+ * Description: use of Sizeof function
+ *
+ * Return: always return 0 (success)
  */
+
 int main(void)
 {
-	printf("size of a char: %i byte(s)\n", sizeof(char));
-	printf("size of an int: %i byte(s)\n", sizeof(int));
-	printf("size of a long int:%i byte(s)\n", sizeof(long int));
-	printf("size of a long long int:%i byte(s)\n", sizeof(long long int));
-	printf("size of a float:%i byte(s)\n", sizeof(float));
+	int a;
+	char b;
+	long int c;
+	long long int d;
+	float e;
+
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(e));
 	return (0);
 }
