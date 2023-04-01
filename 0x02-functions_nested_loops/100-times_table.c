@@ -15,7 +15,6 @@ void print_times_table(int n)
 		while (i <= n)
 		{
 			_putchar('0');
-
 			j = 1;
 			while (j <= n)
 			{
@@ -45,7 +44,3 @@ void print_times_table(int n)
 		}
 	}
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
